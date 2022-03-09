@@ -1,15 +1,12 @@
 
-
 body{
     background-image: url(assets/park1500.jpg);
     text-align: center;
 }
-
 h1{
     color:#f7f7f7;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .square{
     margin: 2px;
     box-shadow: 1px 1px 3px 0px;
@@ -20,13 +17,9 @@ h1{
     border: 1px solid rgb(250, 250, 250);
     display: inline-block;
 }
-
-
-
 .o{
     position: relative;
 }
-
 .o:after{
     position: absolute;
     content: "\1F436";
@@ -37,11 +30,9 @@ h1{
     left: 0;
     right: 0;
 }
-
 .x{
     position: relative;
 }
-
 .x:after{
     position: absolute;
     content: "\1F431";
@@ -52,9 +43,7 @@ h1{
     left: 0;
     right: 0;
 }
-
 button{
-
 margin-top: 15px;
 width: 100px;
 background-color: #509e46cc;
